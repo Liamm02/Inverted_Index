@@ -3,17 +3,16 @@ from Document_normalizer import Translator,StopWords_deleter
 
 def inverted_index_of(doc, MainPath, indexed):
 
-    # We store in PATH the path of the folder with the documents and the name of the document
     path = MainPath + "/indices/"
     Document_path = MainPath + "/Documents/" + doc
     if indexed == 0:
-        # We open the document trying for UTF-8 and ANSI
 
 
         file = open(Document_path, encoding="UTF-8")
         f = file.read()
         file.seek(0)
-
+        
+        f = Translator(f)
 
         text = f.split("\n")
 
