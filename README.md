@@ -2,8 +2,10 @@
 Implement an inverted index by passing a collection of documents as parameters.
 ## Overview
 The code performs the following functions:
-1- Check if every file and folder we need is ready, and prepare them if they are not
+1- Check if every file and folder we need is ready, and prepare them if they are not.
+
 2- Preprocesses the data in the text collection (stop words removal, stemming, removing punctuations etc.)
+
 3- 
 ## Running the code  
 *Python 3 and nltk is required to run the code*
