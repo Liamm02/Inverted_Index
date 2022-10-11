@@ -39,7 +39,7 @@ This function checks if there is a folder to store the indices of all the docume
 ## Built With 🛠️
 
 * [PyCharm](https://www.jetbrains.com/es-es/pycharm/) - the text editor used
-
+* [Python 3.9.0](https://www.python.org/downloads/release/python-390/) - the python version used
 ## Authors ✒️
 * **Javier García**
 * **Jesús Matos**
