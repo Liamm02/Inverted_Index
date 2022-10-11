@@ -20,21 +20,21 @@ Open the project in any preferred IDE of your choice and run the Inverted_Index.
 
 ## Detailed List of Functionalities Implemented ⚙️
 ### In the file Inverted_Index.py
-#### 1. Inverted_index_of
-This function creates the midpoints and also the Json file with the indexes.
+#### 1. Inverted_Index_Of
+Creates the midpoints and also the Json file with the indexes.
 ### In the file Document_Normalizer.py
 #### 1. Translator
-This function gets rid of all the punctuations and special characters,
+Gets rid of all the punctuations and special characters,
     it also converts the document to lowercase.
 #### 2. StopWords_Deleter
-This function removes stopwords from the text file.
+Removes stopwords from the text file.
 ### In the file Checker.py
 #### 1. Documents_Checker
-This functions checks if there are documents to invert index, and returns their names.
+Checks if there are documents to invert index, and returns their names.
 #### 2. IE_File_Checker
-This functions checks if there is an IE.json file to store our final inverted index.
+Checks if there is an IE.json file to store our final inverted index.
 #### 3. Indices_Folder_Checker
-This function checks if there is a folder to store the indices of all the documents.
+Checks if there is a folder to store the indices of all the documents.
 
 ## Built With 🛠️
 
