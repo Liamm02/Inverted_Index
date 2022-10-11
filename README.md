@@ -9,7 +9,7 @@ The code performs the following functions:
 
 3- 
 ## Running the code  
-*Python 3 and nltk is required to run the code*
+*Python 3, nltk and jason is required to run the code*
 
 Ensure all the files from the repo are present in the same directory.
 
@@ -18,7 +18,7 @@ Open the project in any preferred IDE of your choice and run the Inverted_Index.
 ## Detailed List of Functionalities Implemented
 ### In the file Inverted_Index.py
 #### 1. inverted_index_of
-
+This function create a midpoint and write on the Json file.
 ### In the file Document_normalizer.py
 #### 1. Translator
 This function gets rid of all the punctuations and special characters,
